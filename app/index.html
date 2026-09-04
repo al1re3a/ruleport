@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Create portable coding-agent instructions from one policy.">
+  <title>RulePort Studio</title>
+  <link rel="stylesheet" href="/app/style.css">
+</head>
+<body>
+  <header>
+    <div class="brand"><span class="mark">R/</span> RulePort</div>
+    <a href="https://github.com" aria-label="View RulePort on GitHub">GitHub ↗</a>
+  </header>
+  <main>
+    <section class="hero">
+      <p class="eyebrow">ONE POLICY · EVERY CODING AGENT</p>
+      <h1>Stop rewriting your<br><em>project rules.</em></h1>
+      <p class="lede">Define conventions once. Export consistent instructions for Codex, Claude Code, Copilot, and Cursor—locally in your browser.</p>
+    </section>
+    <section class="studio">
+      <div class="panel editor-panel">
+        <div class="panel-title"><span>Policy</span><button id="example">Load example</button></div>
+        <textarea id="policy" spellcheck="false" aria-label="RulePort JSON policy"></textarea>
+        <div id="status" role="status">Ready</div>
+      </div>
+      <div class="panel output-panel">
+        <div class="panel-title">
+          <div id="tabs" class="tabs"></div>
+          <button id="copy">Copy</button>
+        </div>
+        <pre><code id="output"></code></pre>
+        <div class="footer-row"><span id="filename"></span><button id="download" class="primary">Download file</button></div>
+      </div>
+    </section>
+    <section class="proof">
+      <span>✓ Private by design</span><span>✓ Zero dependencies</span><span>✓ CLI + browser</span><span>✓ Open source</span>
+    </section>
+  </main>
+  <script type="module" src="/app/app.js"></script>
+</body>
+</html>
