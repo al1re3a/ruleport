@@ -1,0 +1,24 @@
+{
+  "name": "Acme Dashboard",
+  "summary": "A local-first analytics dashboard for independent teams.",
+  "stack": ["TypeScript", "React", "PostgreSQL"],
+  "commands": {
+    "dev": "npm run dev",
+    "test": "npm test",
+    "check": "npm run check"
+  },
+  "conventions": [
+    "Use accessible semantic HTML.",
+    "Keep domain logic outside UI components.",
+    "Prefer named exports."
+  ],
+  "boundaries": [
+    "Never log customer data.",
+    "Ask before adding dependencies."
+  ],
+  "verification": [
+    "Run tests and type checking.",
+    "Document user-visible behavior."
+  ],
+  "scope": "**/*.{ts,tsx,sql}"
+}
