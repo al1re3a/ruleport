@@ -1,5 +1,7 @@
 # RulePort
 
+[![CI](https://github.com/al1re3a/ruleport/actions/workflows/ci.yml/badge.svg)](https://github.com/al1re3a/ruleport/actions/workflows/ci.yml)
+
 **Write your project rules once. Port them to every coding agent.**
 
 RulePort turns one small JSON policy into consistent instructions for:
@@ -24,7 +26,7 @@ RulePort writes all four targets while preserving the vocabulary and constraints
 ## Browser studio
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/ruleport.git
+git clone https://github.com/al1re3a/ruleport.git
 cd ruleport
 npm run dev
 ```

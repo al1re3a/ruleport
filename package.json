@@ -13,6 +13,9 @@
   },
   "keywords": ["agents-md", "claude", "codex", "cursor", "copilot", "ai", "developer-tools"],
   "license": "MIT",
+  "repository": { "type": "git", "url": "git+https://github.com/al1re3a/ruleport.git" },
+  "bugs": { "url": "https://github.com/al1re3a/ruleport/issues" },
+  "homepage": "https://al1re3a.github.io/ruleport/",
   "engines": { "node": ">=20" },
   "files": ["src", "app", "examples", "README.md", "LICENSE"]
 }
