@@ -24,7 +24,7 @@ function normalize(spec = {}) {
 
 function body(raw) {
   const spec = normalize(raw);
-  const commands = Object.entries(spec.commands).map(([name, command]) => `- **${name}:** \`${command}\``);
+  const commands = Object.entries(spec.commands).map(([name, command]) => `**${name}:** \`${command}\``);
   return `# ${spec.name} — agent instructions
 
 ## Project
