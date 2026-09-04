@@ -8,7 +8,8 @@ const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const types = { '.html': 'text/html; charset=utf-8', '.css': 'text/css; charset=utf-8', '.js': 'text/javascript; charset=utf-8', '.json': 'application/json' };
 const server = createServer(async (request, response) => {
   const url = new URL(request.url, 'http://localhost');
-  const relative = url.pathname === '/' ? 'app/index.html' : url.pathname.replace(/^\//, '');
+  if (url.pathname === '/') { response.writeHead(302, { location: '/app/' }).end(); return; }
+  const relative = url.pathname === '/app/' ? 'app/index.html' : url.pathname.replace(/^\//, '');
   const absolute = path.resolve(root, relative);
   if (!absolute.startsWith(root)) { response.writeHead(403).end('Forbidden'); return; }
   try {

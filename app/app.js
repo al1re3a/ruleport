@@ -1,4 +1,4 @@
-import { generateFiles } from '/src/generator.js';
+import { generateFiles } from '../src/generator.js';
 
 const example = {
   name: 'Acme Dashboard',
