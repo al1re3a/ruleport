@@ -21,6 +21,7 @@
 
 <p align="center">
   <a href="https://github.com/al1re3a/ruleport"><img alt="Source" src="https://img.shields.io/badge/Source-open-111827?style=for-the-badge&logo=github&logoColor=white"></a>
+  <a href="https://al1re3a.github.io/ruleport/"><img alt="Live Studio" src="https://img.shields.io/badge/Live_Studio-open-2563eb?style=for-the-badge&logo=googlechrome&logoColor=white"></a>
   <a href="#quick-start"><img alt="Quick Start" src="https://img.shields.io/badge/Quick_Start-open-0f766e?style=for-the-badge&logo=gnubash&logoColor=white"></a>
   <a href="CONTRIBUTING.md"><img alt="Contribute" src="https://img.shields.io/badge/Contribute-open-7c3aed?style=for-the-badge&logo=github&logoColor=white"></a>
   <a href="SECURITY.md"><img alt="Security" src="https://img.shields.io/badge/Security-open-b91c1c?style=for-the-badge&logo=securityscorecard&logoColor=white"></a>
